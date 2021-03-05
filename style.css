@@ -11,16 +11,6 @@ button {
 	font-family: 'Poppins', sans-serif;
 }
 
-header {
-    display: flex;
-    width: 90%;
-  	height: 10vh;
-    margin: auto;
-   	align-items: center;
-    background-color: #00ff00;
-    padding-right: 18px;
-}
-
 .nav-links,
  {
 	display: flex;
@@ -32,7 +22,28 @@ header {
 	text-decoration: none;
 }
 
+@media screen and (min-width: 1025px) {
+    header {
+        display: flex;
+        width: 90%;
+  	    height: 10vh;
+        margin: auto;
+       	align-items: center;
+        background-color: #00ff00;
+        padding-right: 24px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
+    header {
+        display: flex;
+        width: 90%;
+  	    height: 10vh;
+        margin: auto;
+       	align-items: center;
+        background-color: #00ff00;
+        padding-right: 18px;
+    }
 	.presentation {
 		flex-direction: column;
 	}
