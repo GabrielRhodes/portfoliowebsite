@@ -1,0 +1,102 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+button {
+	font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+.nav-links,
+.cart {
+	display: flex;
+    width: 98%;
+    #background-color: #00ff00;
+}
+
+li{
+    font-size: 20px;
+}
+
+nav {
+	flex: 2;
+}
+
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.presentation {
+    #background-color: #00ff00;
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+}
+
+.introduction {
+	flex: 1;
+}
+
+.intro-text h1 {
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #494964, #6f6f89);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.intro-text p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: #585772;
+    text-align: center;
+}
