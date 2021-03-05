@@ -38,7 +38,7 @@ header {
 .nav-links,
 .cart {
 	display: flex;
-    width: 100%;
+    width: 99%;
     #background-color: #00ff00;
 }
 
