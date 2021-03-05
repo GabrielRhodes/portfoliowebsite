@@ -7,38 +7,50 @@
 body {
 	font-family: 'Poppins', sans-serif;
 }
-
 button {
 	font-family: 'Poppins', sans-serif;
 }
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
 
 header {
+    display: flex;
+    width: 90%;
+  	height: 10vh;
+    margin: auto;
+   	align-items: center;
+    background-color: #00ff00;
+    padding-right: 18px;
+}
+
+.nav-links,
+ {
 	display: flex;
-	width: 90%;
-	height: 10vh;
-	margin: auto;
-	align-items: center;
+}
+
+.nav-link {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+	.presentation {
+		flex-direction: column;
+	}
+	.introduction {
+		margin-top: 5vh;
+		text-align: center;
+	}
+	.intro-text h1 {
+		font-size: 30px;
+	}
+	.intro-text p {
+		font-size: 18px;
+	}
 }
 
 .nav-links,
 .cart {
 	display: flex;
-    width: 99%;
     #background-color: #00ff00;
 }
 
@@ -74,9 +86,11 @@ a:active {
 }
 
 .presentation {
-    #background-color: #00ff00;
+	min-height: 80vh;
+	align-items: center;
+    background-color: #00ff00;
 	display: flex;
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	min-height: 80vh;
 }
