@@ -18,7 +18,6 @@ header {
     height: 10vh;
     margin: auto;
     align-items: center;
-    background-color: #00ff00;
 }
 
 .nav-links {
@@ -50,7 +49,6 @@ header {
 .nav-links,
 .cart {
     display: flex;
-    #background-color: #00ff00;
 }
 
 li {
@@ -73,7 +71,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: #ff0000;
+    color: lightsteelblue;
 }
 
 a:hover {
@@ -87,8 +85,6 @@ a:active {
 .presentation {
     min-height: 80vh;
     align-items: center;
-    background-color: #00ff00;
-    display: flex;
     width: 100%;
     margin: auto;
     min-height: 80vh;
@@ -96,6 +92,11 @@ a:active {
 
 .introduction {
     flex: 1;
+}
+
+.intro-text {
+    width: 90%;
+    padding-left: 10%;
 }
 
 .intro-text h1 {
@@ -107,9 +108,18 @@ a:active {
     text-align: center;
 }
 
-.intro-text p {
+.short-des {
     margin-top: 5px;
     font-size: 22px;
+    font-weight: 400;
     color: #585772;
+    text-align: center;
+}
+
+.description {
+    font-weight: 300;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
 }
