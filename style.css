@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: honeydew;
 }
 
 button {
@@ -66,20 +67,22 @@ nav {
 
 a:link {
     text-decoration: none;
-    color: #ff0000;
+    color: lightslategray;
 }
 
 a:visited {
     text-decoration: none;
-    color: lightsteelblue;
+    color: lightslategray;
 }
 
 a:hover {
     text-decoration: none;
+    color: lightslategray;
 }
 
 a:active {
     text-decoration: none;
+    color: lightslategray;
 }
 
 .presentation {
